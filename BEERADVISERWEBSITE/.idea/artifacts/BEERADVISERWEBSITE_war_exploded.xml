@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="BEERADVISERWEBSITE:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/BEERADVISERWEBSITE_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="BEERADVISERWEBSITE/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BEERADVISERWEBSITE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
