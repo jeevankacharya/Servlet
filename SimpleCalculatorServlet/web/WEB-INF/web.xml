@@ -5,16 +5,12 @@
          version="4.0">
 
     <servlet>
-        <servlet-name>CH3 Beer</servlet-name>
-<!--        <servlet-class>BeerSelect</servlet-class>-->
-        <servlet-class>version1.BeerSelect2</servlet-class>
+        <servlet-name>Calculator</servlet-name>
+        <servlet-class>SimpleCalculator</servlet-class>
 
     </servlet>
     <servlet-mapping>
-        <servlet-name>CH3 Beer</servlet-name>
-        <url-pattern>/SelectBeer.do</url-pattern>
+        <servlet-name>Calculator</servlet-name>
+        <url-pattern>/SimpleCalculator.do</url-pattern>
     </servlet-mapping>
-
-
-
 </web-app>

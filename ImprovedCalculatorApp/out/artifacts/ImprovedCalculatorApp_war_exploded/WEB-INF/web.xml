@@ -4,17 +4,14 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
+
     <servlet>
-        <servlet-name>CH3 Beer</servlet-name>
-<!--        <servlet-class>BeerSelect</servlet-class>-->
-        <servlet-class>version1.BeerSelect2</servlet-class>
+        <servlet-name>Calculator</servlet-name>
+        <servlet-class>ImprovedCalculatorApp</servlet-class>
 
     </servlet>
     <servlet-mapping>
-        <servlet-name>CH3 Beer</servlet-name>
-        <url-pattern>/SelectBeer.do</url-pattern>
+        <servlet-name>Calculator</servlet-name>
+        <url-pattern>/SimpleCalculator.do</url-pattern>
     </servlet-mapping>
-
-
-
 </web-app>

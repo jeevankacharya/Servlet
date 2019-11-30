@@ -6,11 +6,15 @@
 
     <servlet>
         <servlet-name>CH3 Beer</servlet-name>
-        <servlet-class>BeerSelect</servlet-class>
+<!--        <servlet-class>BeerSelect</servlet-class>-->
+        <servlet-class>version1.BeerSelect2</servlet-class>
+
     </servlet>
-<servlet-mapping>
-    <servlet-name>CH3 Beer</servlet-name>
-    <url-pattern>/SelectBeer.do</url-pattern>
-</servlet-mapping>
-    
+    <servlet-mapping>
+        <servlet-name>CH3 Beer</servlet-name>
+        <url-pattern>/SelectBeer.do</url-pattern>
+    </servlet-mapping>
+
+
+
 </web-app>

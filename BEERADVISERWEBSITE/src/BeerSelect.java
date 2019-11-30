@@ -10,13 +10,10 @@ import java.io.PrintWriter;
 public class BeerSelect extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        response.setContentType("text/html");
-PrintWriter out = response.getWriter();
-out.println("Beer Selection Advice<br>");
-String c = request.getParameter("color");
-out.println("<br> Got Beer Color "+ c);
-
-
+        PrintWriter out = response.getWriter();
+        out.println("Beer Selection Advice<br>");
+        String c = request.getParameter("color");
+        out.println("<br> Got Beer Color " + c);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

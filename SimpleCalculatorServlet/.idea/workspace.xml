@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="BEERADVISERWEBSITE:war exploded" />
+      <artifact name="SimpleCalculatorServlet:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="203ec91f-6198-4d6a-b071-4906822d28d9" name="Default Changelist" comment="" />
+    <list default="true" id="46287cde-36de-441e-8d6f-cb63ef9815d8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,15 +20,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="1UJktj4Majr0KP7gLYY4g3AAwIE" />
+  <component name="ProjectId" id="1UJlf0VdVP6oTOiGxD8XQ6kHV50" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="version1" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,14 +40,14 @@
   <component name="RunManager">
     <configuration name="Tomcat 9.0.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
-        <artifact name="BEERADVISERWEBSITE:war exploded">
+        <artifact name="SimpleCalculatorServlet:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/BEERADVISERWEBSITE_war_exploded" />
+            <option name="CONTEXT_PATH" value="/SimpleCalculatorServlet_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_20_BEERADVISERWEBSITE" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_20_SimpleCalculatorServlet" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -77,7 +72,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="BEERADVISERWEBSITE:war exploded" />
+          <artifact name="SimpleCalculatorServlet:war exploded" />
         </option>
       </method>
     </configuration>
@@ -87,12 +82,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="203ec91f-6198-4d6a-b071-4906822d28d9" name="Default Changelist" comment="" />
-      <created>1575082301878</created>
+      <changelist id="46287cde-36de-441e-8d6f-cb63ef9815d8" name="Default Changelist" comment="" />
+      <created>1575082678524</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575082301878</updated>
-      <workItem from="1575082305853" duration="1365000" />
+      <updated>1575082678524</updated>
+      <workItem from="1575082681852" duration="2119000" />
     </task>
     <servers />
   </component>
